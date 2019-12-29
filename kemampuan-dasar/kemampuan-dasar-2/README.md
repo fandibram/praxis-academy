@@ -1,0 +1,1 @@
+# Nama Repo yang berhubungan dengan praktik-1.md yaitu rhymes.
