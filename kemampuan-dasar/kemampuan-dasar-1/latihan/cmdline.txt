@@ -1,0 +1,186 @@
+1. bram@bram-pc:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+
+2. bram@bram-pc:~$ ls -R
+.:
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+
+./Desktop:
+
+./Documents:
+praxis-academy
+
+./Documents/praxis-academy:
+kemampuan-dasar
+
+./Documents/praxis-academy/kemampuan-dasar:
+kemampuan-dasar-1  kemampuan-dasar-2  wawasan
+
+./Documents/praxis-academy/kemampuan-dasar/kemampuan-dasar-1:
+latihan
+
+./Documents/praxis-academy/kemampuan-dasar/kemampuan-dasar-1/latihan:
+env.txt  grub.txt  kernel-linux.txt
+
+./Documents/praxis-academy/kemampuan-dasar/kemampuan-dasar-2:
+
+./Documents/praxis-academy/kemampuan-dasar/wawasan:
+
+./Downloads:
+code_1.41.1-1576681836_amd64.deb
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+
+3. bram@bram-pc:~$ cat > sample1
+isinya sample1
+bram@bram-pc:~$ cat sample1
+isinya sample1
+bram@bram-pc:~$ cat >  sample2
+isinya sample2
+bram@bram-pc:~$ cat sample2
+isinya sample2
+bram@bram-pc:~$ cat sample1 sample2 > sample
+bram@bram-pc:~$ cat sample
+isinya sample1
+isinya sample2
+
+4. bram@bram-pc:~$ ls
+Desktop    Downloads         Music     Public  sample1  Templates
+Documents  examples.desktop  Pictures  sample  sample2  Videos
+bram@bram-pc:~$ rm sample1
+bram@bram-pc:~$ ls
+Desktop    Downloads         Music     Public  sample2    Videos
+Documents  examples.desktop  Pictures  sample  Templates
+
+5. bram@bram-pc:~$ mv sample2 /home/bram/Documents
+
+6. bram@bram-pc:~$ mkdir mydirectory
+bram@bram-pc:~$ ls
+Desktop    Downloads         Music        Pictures  sample     Videos
+Documents  examples.desktop  mydirectory  Public    Templates
+
+7. bram@bram-pc:~$ ls
+Desktop    Downloads         Music        Pictures  sample     Videos
+Documents  examples.desktop  mydirectory  Public    Templates
+bram@bram-pc:~$ rmdir mydirectory
+bram@bram-pc:~$ ls
+Desktop    Downloads         Music     Public  Templates
+Documents  examples.desktop  Pictures  sample  Videos
+
+8. bram@bram-pc:~$ mkdir mydirectory
+bram@bram-pc:~$ ls
+Desktop    Downloads         Music        Pictures  sample     Videos
+Documents  examples.desktop  mydirectory  Public    Templates
+bram@bram-pc:~$ mv mydirectory newdirectory
+bram@bram-pc:~$ ls
+Desktop    Downloads         Music         Pictures  sample     Videos
+Documents  examples.desktop  newdirectory  Public    Templates
+
+9.  1  file /sbin/init
+    2  java -version
+    3  sudo apt-get update
+    4  java -version
+    5  sudo apt-get install openjdk-8-jdk
+    6  java -version
+    7  cd dow
+    8  cd Dow
+    9  cd Downloads
+   10  ls
+   11  sudo dpkg -i code_1.41.1-1576681836_amd64.deb
+   12  cat /etc/x11/default-display-manager
+   13  cat /etc/X11/default-display-manager
+   14  cat /etc/X11/default-window-manager
+   15  desktop_session
+   16  ls
+   17  git init
+   18  git add
+   19  git add *
+   20  git commit -m praxis-academy
+   21  git config --global user.email
+   22  sudo apt-get install git
+   23  dpkg --get-selections | greplinux-image
+   24  grep linux-image
+   25  dpkg --get-selections | grep linux-image
+   26  dpkg -l | grep linux-image
+   27  ls
+   28  ls -R
+   29  cat sample1
+   30  cat > sample1
+   31  cat sample1
+   32  cat sample2
+   33  cat > sample1
+   34  cat sample1
+   35  cat > sample2
+   36  cat sample1 sample2 > sample
+   37  cat sample
+   38  ls
+   39  ls -R
+   40  cat > sample1
+   41  cat sample1
+   42  cat >  sample2
+   43  cat sample2
+   44  cat sample1 sample2 > sample
+   45  cat sample
+   46  ls
+   47  rm sample1
+   48  ls
+   49  mv sample2 /Home/Documents
+   50  mv sample2 /Home/Bram /Documents
+   51  mv sample2 /Home/Bram/Documents
+   52  mv sample2 /Home/bram/Documents
+   53  mv sample2 /home/bram/Documents
+   54  mkdir
+   55  ls
+   56  mkdir Documents
+   57  mkdir mydirectory
+   58  ls
+   59  rmdir mydirectory
+   60  ls
+   61  mkdir mydirectory
+   62  ls
+   63  mv mydirectory newdirectory
+   64  ls
+   65  history
+
+10.bram@bram-pc:~$ ls -al
+total 116
+drwxr-xr-x 19 bram bram 4096 Des 29 14:29 .
+drwxr-xr-x  3 root root 4096 Des 29 02:28 ..
+-rw-------  1 bram bram  725 Des 29 14:17 .bash_history
+-rw-r--r--  1 bram bram  220 Des 29 02:28 .bash_logout
+-rw-r--r--  1 bram bram 3771 Des 29 02:28 .bashrc
+drwx------ 14 bram bram 4096 Des 29 09:56 .cache
+drwx------ 16 bram bram 4096 Des 29 12:51 .config
+drwxr-xr-x  2 bram bram 4096 Des 29 12:33 Desktop
+drwxr-xr-x  3 bram bram 4096 Des 29 14:25 Documents
+drwxr-xr-x  2 bram bram 4096 Des 29 10:30 Downloads
+-rw-r--r--  1 bram bram 8980 Des 29 02:28 examples.desktop
+-rw-r--r--  1 bram bram   45 Des 29 13:27 .gitconfig
+drwx------  3 bram bram 4096 Des 29 10:39 .gnupg
+-rw-------  1 bram bram 1288 Des 29 12:30 .ICEauthority
+drwx------  3 bram bram 4096 Des 29 09:43 .local
+drwx------  5 bram bram 4096 Des 29 09:56 .mozilla
+drwxr-xr-x  2 bram bram 4096 Des 29 09:44 Music
+drwxr-xr-x  2 bram bram 4096 Des 29 14:29 newdirectory
+drwxr-xr-x  2 bram bram 4096 Des 29 09:44 Pictures
+drwx------  3 bram bram 4096 Des 29 10:40 .pki
+-rw-r--r--  1 bram bram  807 Des 29 02:28 .profile
+drwxr-xr-x  2 bram bram 4096 Des 29 09:44 Public
+-rw-r--r--  1 bram bram   30 Des 29 14:20 sample
+drwx------  2 bram bram 4096 Des 29 10:39 .ssh
+-rw-r--r--  1 bram bram    0 Des 29 10:18 .sudo_as_admin_successful
+drwxr-xr-x  2 bram bram 4096 Des 29 09:44 Templates
+drwxr-xr-x  2 bram bram 4096 Des 29 09:44 Videos
+drwxrwxr-x  3 bram bram 4096 Des 29 10:39 .vscode
+
+
