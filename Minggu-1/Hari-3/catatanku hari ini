@@ -1,0 +1,25 @@
+anotasi adalah metode mengaitkan metadata dengan elemen program, memungkinkan ekstraksi perilaku program dari anotasi dan pembuatan kode yang saling tergantung oleh java compiler.
+
+macam anotasi standard di java
+1. @Deprecated
+Untuk annotation ini akan memberitanda coretan ketika method tersebut dipanggil yang bergguna untuk memberitnda pada developer lain dalam team. contoh penggunaan yaitu
+2. @Override
+untuk mengecek apakah method di SuperClass dan SubClass memiliki nama yang sama atau kekomplitan dalam sintaksis.
+3. @SuppressWarnings
+Untuk annotation ini digunakan untuk mengabaikan warning.
+4. @Documented
+
+5. @Target
+
+6. @Inherited
+
+7. @User-defined/Custom
+
+javadoc 
+javadoc digunakan untuk mencatat atau mendokumentasikan class secara otomatis. Tag yang digunakan sebagai berikut :
+
+    @author untuk memberitahu nama penulis,
+    @param untuk memberitahukan parameter yang digunakan dalam method
+    @return untuk memberitahu nilai yang dikembalika.
+    @version untuk mendeklarasikan version program.
+

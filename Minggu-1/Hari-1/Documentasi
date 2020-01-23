@@ -1,0 +1,34 @@
+senin 20 januari 2020
+menginstall java
+donwload java lalu buka terminal 
+"sudo tar xvzf jdk-8u241-linux-x64.tar.gz"
+lalu java version
+di sini terjadi error (lupa errornya)
+lalu akhirnya menggunakan as root
+"sudo su"
+"mkdir /opt/jdk"
+"tar -zxf jdk-8u5-linux-x64.tar.gz -C /opt/jdk"
+"java -version"
+berhasil
+
+lalu belajar hello word tapi "run|debug" tidak muncul sehingga saya harus menambahkan di user setting 
+"java.home": "/opt/jdk/jdk1.8.0_241"
+
+
+membuat compile class dari hello world dengan command
+"javac Helloworld/HelloWord.java"
+lalu muncul file baru "HelloWorld.class"
+Run class 
+"java -cp . HelloWorld/HelloWorld"
+terjadi Error tapi saat run melalui folder, dengan command
+"java -cp . HelloWorld" berhasil
+membuat file jar "jar cfm HelloWorld/HelloWorld.jar  HelloWorld/manifest.mf HelloWorld/HelloWorld.class"
+berhasil memunculkan file .jar "HelloWorld.jar"
+Run JAR file
+"java -jar HelloWorld.jar"
+terdapat error "no main manifest attribute, in HelloWorld.jar"
+
+struktur dasar source code dalam java
+dalam java menggunakan method "public static void main (Stirngs[] args)
+
+

@@ -1,0 +1,15 @@
+dasar java
+-object
+menjelaskan bagaimana status dan perilaku ditampilkan dalam suatu objek, memperkenalkan konsep enkapsulasi data, dan menjelaskan manfaat mendesain perangkat lunak Anda dengan cara ini.
+-class
+Bagian ini mendefinisikan class yang memodelkan keadaan dan perilaku objek dunia nyata. Berfokus pada dasar-dasar, menunjukkan bagaimana bahkan class sederhana dapat memodelkan keadaan dan perilaku dengan bersih.
+-inheritance
+Bagian ini menjelaskan bagaimana class mewarisi keadaan dan perilaku dari superclasses mereka, dan menjelaskan cara menurunkan satu class dari yang lain menggunakan sintaks sederhana yang disediakan oleh bahasa pemrograman Java.
+-interface
+Ketika sebuah kelas mengimplementasikan interface, ia berjanji untuk menyediakan perilaku yang diterbitkan oleh interface itu. Bagian ini mendefinisikan interface yang sederhana dan menjelaskan perubahan yang diperlukan untuk setiap class yang mengimplementasikannya.
+-package
+Paket adalah namespace untuk mengatur class dan interface secara logis. Menempatkan kode Anda ke dalam paket membuat proyek perangkat lunak besar lebih mudah dikelola. Bagian ini menjelaskan mengapa ini berguna, dan memperkenalkan Anda ke Application Programming Interface (API) yang disediakan oleh platform Java.
+
+buat paket di java 
+install gradle dan memahami fungsinya
+membuat crc card
