@@ -15,13 +15,13 @@ public class MesinATM{
             System.out.println("\tAnda tidak mempunyai cukup saldo untuk Tarik Tunai.");
             System.out.println("\tCek sisa saldo anda.");
         }
-        else if(TarikTunai.tariktunai>InformasiSaldo.saldo){
+        else if(TarikTunai.tarik>InformasiSaldo.saldo){
             System.out.println("\tJumlah tarik tunai anda lebih besar dari saldo anda.");
             System.out.println("\tSilahkan cek saldo anda.");
         }
         else{
-            InformasiSaldo.Saldo = InformasiSaldo.Saldo - TarikTunai.tariktunai;
-            System.out.println("\n\tAnda tarik tunai sebesar "+ TarikTunai.tariktunai);
+            InformasiSaldo.Saldo = InformasiSaldo.Saldo - TarikTunai.tarik;
+            System.out.println("\n\tAnda tarik tunai sebesar "+ TarikTunai.tarik);
         }
     }
     public static void InformasiSaldo(){
@@ -60,14 +60,14 @@ public class MesinATM{
                                 System.out.print("\n\tSilahkan input uang untuk setor: ");
                                 Setor.setor = read.nextDouble();
                                 InformasiSaldo.saldo = Setor.setor + InformasiSaldo.saldo;
-                                setor();
+                                
                                 break;
 
                             case 2:
                                 System.out.print("\n\tUntuk tarik tunai, pastikan saldo cukup.");
                                 System.out.println();
                                 System.out.print("\tMasukkan jumlah uang yang akan tarik tunai: ");
-                                TarikTunai.tariktunai() = read.Double();
+                                TarikTunai.tarik = read.nextDouble();
                                 TarikTunai();
                                 break;      
                             

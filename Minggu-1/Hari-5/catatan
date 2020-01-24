@@ -1,0 +1,17 @@
+materi hari ini struktur data
+yg di pelajari:
+serialisasi dan deserialisasi
+Serialization adalah suatu proses mengubah objek menjadi byte stream(.ser), agar bisa disimpan dalam file, memori ataupun berguna dalam proses transmisi jaringan.
+
+Deserialization adalah kebalikan dari proses Serialization.
+
+buat file json
+buat xml
+
+mempelajari 6 struktur data:
+array
+Linked List
+Hash table
+Stack
+Queue
+Set
